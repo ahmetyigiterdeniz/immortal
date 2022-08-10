@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #000000;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.def-navbar {
+    background: rgba(0, 0, 0, 0.718);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 28px;
+    font-weight: 900;
+    font-size: 18px;
+    z-index: 100;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 0 70px;
+}
+
+.title > span {
+    color: aquamarine;
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+    height: calc(100% - 130px);
+    display: flex;
+    flex-direction: column;
+}
+
+.post-card {
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: 10px;
+}
+
+.post-card:hover {
+    background: rgb(29, 29, 29, .6);
+    cursor: pointer;
+}
+
+.post-title {
+    font-weight: 900;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.post-body {
+    font-size: 18px;
+}
+
+.post-date {
+    color: rgb(129, 129, 129);
+}
